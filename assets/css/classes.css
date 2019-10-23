@@ -237,3 +237,27 @@ h1,h2,h3,h4,h5,h6,p,a{
   font-family: 'Cairo', sans-serif;
   font-weight: bold;
 }
+
+footer a
+{
+  color: white;
+}
+
+
+footer a:hover
+{
+  color: white;
+}
+
+
+.arabic-fonts
+{
+  font-family: 'Cairo', sans-serif;
+  font-weight: bold;
+}
+
+.arabic-fonts-slim
+{
+  font-family: 'Cairo', sans-serif;
+
+}

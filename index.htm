@@ -33,6 +33,8 @@
 <link rel="stylesheet" type="text/css" href="assets/css/main.css" />
 <link href="https://fonts.googleapis.com/css?family=Cairo&display=swap" rel="stylesheet">
 
+
+
 <!-- End Style -->
 
 
@@ -53,7 +55,7 @@
 <body>
 
 
-  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <nav class="navbar navbar-expand-lg  pull-left navbar-light bg-light">
     <div class="container">
     <a class="navbar-brand" href="#"><img alt="The Logo" class="home-logo" src="assets/images/logo.png"/></a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -61,25 +63,25 @@
     </button>
 
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
-      <ul class="navbar-nav mr-auto">
+      <ul dir="rtl" class="navbar-nav mr-auto arabic-fonts">
         <li class="nav-item active">
-          <a class="nav-link" href="#">Home<span class="sr-only">(current)</span></a>
+          <a class="nav-link arabic-fonts" href="#">الرئيسية<span class="sr-only">(current)</span></a>
         </li>
         <li class="nav-item">
-          <a title="Frequently Questioned Answers" class="nav-link" href="#welcome">About</a>
+          <a title="About" class="nav-link arabic-fonts" href="#welcome">ايه ده؟</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Apply</a>
+          <a class="nav-link arabic-fonts" href="https://forms.gle/NzNqnEaL9Gfc2kEJ9">التقديم</a>
         </li>
         <li class="nav-item">
-          <a title="Frequently Questioned Answers" class="nav-link" href="#speakers">Speakers</a>
+          <a title="Speakers" class="nav-link arabic-fonts" href="#speakers">المتحدثون</a>
         </li>
         <li class="nav-item">
-          <a title="Frequently Questioned Answers" class="nav-link" href="#">FQA</a>
+          <a title="Frequently Questioned Answers" class="nav-link arabic-fonts" href="#">اسئلة شائعة</a>
         </li>
 
         <li class="nav-item">
-          <a title="Frequently Questioned Answers" class="nav-link specialfont" href="#">عربي</a>
+          <a title="Convert to the English version" class="nav-link " href="en/index.htm">EN</a>
         </li>
 
       </ul>
@@ -94,28 +96,35 @@
         <div class="col-sm">
         <div class="home-mainSection-content">
           <h3> November 4, 2019 @ 12 - 02 PM <h3>
-            <h2>CHANGE YOUR LIFE IN TWO HOURS!<h2>
+            <h2 class="arabic-fonts">!غير حياتك للأحسن في ساعين بس<h2>
             </div>
           </div>
         </div>
       </div>
-      <a class="home-mainLink home-mainSection-buttons-center" href="#">Book Your Seat</a>
+      <a class="home-mainLink home-mainSection-buttons-center arabic-fonts" href="https://forms.gle/NzNqnEaL9Gfc2kEJ9">قدم دلوقتي</a>
       <a class="home-arrow-link" href="#welcome"> <img class="home-mainSection-buttons-center home-arrow" src="assets/images/banner-arrow.png" alt=""/> </a>
       </main>
 
       <section id="welcome">
         <div class="container">
           <div class="row">
+            <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-xs-12 d-none d-sm-block">
+              <img class="home-greeting-img " src="assets/images/event.png" alt="Event picture"/>
+            </div>
             <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-xs-12">
-        <p class="greetings"> Greetings & Welcome </p>
-        <p class="home-About-head"> <span class="home-underabout">About</span> The Event </p>
-        <p class="home-about-para"> This event is an event that designed to educate new university students in many areas that may help
-          them in their life after graduation, specifically in graphic design,
-          student activities and their importance, and career life after graduation. This event takes place at Suez University and it is just an introduction to previous topics.
+        <p class="greetings arabic-fonts-slim"> أهلًا ومرحبًا </p>
+        <p class="home-About-head arabic-fonts"> <span class="home-underabout arabic-fonts">أيه</span> ده؟ </p>
+        <p dir="rtl" class="home-about-para arabic-fonts-slim">
+          الإيفنت ده عبارة عن إيفنت إتصمم إنه يعلم
+الطلاب الجدد بتوع الفرقة الأولى من كل الكليات
+جامعة السويس مواضيع مهمة وهتساعدهم في حياتهم بعد التخرج, هنكلم عن تصميم
+الجرافيك, وعن الانشطة الطلابية واد ايه هي مهمة, وهنكلم عن الحياة الوظيفية
+بعد التخرج وتعمل ايه عشان تضمن وظيفة مناسبة بعد ما تتخرج, الإيفنت هيتعمل في جامعة السويس ببلاش.
+
         </p>
-        <a class="home-about-mainLink home-mainSection-buttons-center" href="#">Check The Aganda</a>
+        <a class="home-about-mainLink home-mainSection-buttons-center arabic-fonts" href="#">بص على الأجندة</a>
         </div>
-        <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-xs-12">
+        <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-xs-12  d-xl-none d-lg-none d-md-none d-sm-block">
           <img class="home-greeting-img" src="assets/images/event.png" alt="Event picture"/>
         </div>
       </div>
@@ -126,27 +135,29 @@
         <div class="container-fluid">
           <div class="row">
             <div class="col-sm home-graphic-design">
-                <h3>Graphic Design</h3>
+                <h3 style="font-family: 'Cairo', sans-serif;
+                font-weight: bold;">تصميم الجرافيك</h3>
                 <i class="fas fa-palette"></i>
-                <p class="home-gd-para">
-                  In this session, we will talk about graphic design, we will give you essential knowledge about graphic design,
-                   how to be a professional graphic designer, and what you should study to become an effective graphic designer.
+                <p dir="rtl" class="home-gd-para" style="font-family: 'Cairo', sans-serif;
+                ">
+                  في الجزء ده هنكلم عن الجرافيك ديزاين, هنديلك المعرفة الأساسية عنه, وازاي تبقى مصمم جرافيك محترف, وايه الحاجات الي المفروض تتعلمها عشان تبقى على وضعك!
                  </p>
             </div>
             <div class="col-sm home-graphic-design">
-                <h3>Student Activities</h3>
+                <h3 dir="rtl" class="home-gd-para" style="font-family: 'Cairo', sans-serif;   font-weight: bold;
+                ">الأنشطة الطلابية</h3>
                 <i class="fas fa-snowboarding"></i>
-                <p>
-                In this session, we will talk about the concept of student activities, what is that,
-                 what is its importance, how that will help you in your life after graduation, and how this will change your life amazingly!
+                <p dir="rtl" class="home-gd-para" style="font-family: 'Cairo', sans-serif;
+                ">
+                في الجزء ده, هنكلم عن الأنشطة الطلابية والتطوع, واد ايه هم مهمين على المستوى الشخصي والوظيفي, والفرص الي هتجيلك بسببها والفرص الي هتضيعها لو مشتركتش فيها!
                 </p>
             </div>
             <div class="col-sm home-graphic-design">
-                <h3>Career life</h3>
+                <h3 dir="rtl" class="home-gd-para" style="font-family: 'Cairo', sans-serif;   font-weight: bold;">الحياة الوظيفية</h3>
                 <i class="fas fa-briefcase"></i>
-                <p>
-                  In this session, the President of the CCT Foundation will talk about many important career-related topics,
-                  which will help you qualify yourself in your study period to ensure getting a suitable job after graduation.
+                <p dir="rtl" class="home-gd-para" style="font-family: 'Cairo', sans-serif;
+                ">
+                  في الجزء ده, هيبقى معانا مؤسس مؤسسة فريق الإرشاد الوظيفي, هيكلم عن مواضيع مهمة تتعلق بالحياة الوظيفية الي هتعرفك إزاي تأهلك نفسك في فترة الدراسة عشان تضمن وظيفة مناسبة لما تتخرج.
                 </p>
             </div>
           </div>
@@ -154,23 +165,23 @@
       </section>
 
       <section id="speakers" class="home-speakers-section">
-        <h2 class="text-center"> Our Speakers In Z-Event </h2>
+        <h2 class="text-center arabic-fonts">الي هيكونوا معانا في الإيفنت</h2>
         <div class="container">
           <div class="row">
             <div class="col-xl-4 col-lg-4 col-md-4 col-sm-12 col-xs-12 home-card">
               <img class="speaker-img" alt="Picture for Ahmed S. ElSayed" src="assets/images/asaid.png"/>
-              <h4 class="text-center"> Ahmed ElSayed </h4>
-              <p class="text-center">Professional Graphic Designer</p>
+              <h4 class="text-center arabic-fonts"> أحمد سعيد </h4>
+              <p class="text-center arabic-fonts-slim">مصمم جرافيك</p>
             </div>
             <div class="col-xl-4 col-lg-4 col-md-4 col-sm-12 col-xs-12 home-card">
               <img class="speaker-img" alt="Picture for Ahmed Nafee" src="assets/images/anafee.png"/>
-              <h4 class="text-center"> Ahmed Nafee </h4>
-              <p class="text-center">The President of AIESEC Suez</p>
+              <h4 class="text-center arabic-fonts">أحمد نافع</h4>
+              <p class="text-center arabic-fonts-slim">رئيس أيزك في السويس</p>
             </div>
             <div class="col-xl-4 col-lg-4 col-md-4 col-sm-12 col-xs-12 home-card">
               <img class="speaker-img" alt="Picture for Ahmed Sief" src="assets/images/asief.png"/>
-              <h4 class="text-center"> Ahmed Saief </h4>
-              <p class="text-center">The Founder of The CCT Foundation</p>
+              <h4 class="text-center arabic-fonts"> أحمد سيف </h4>
+              <p class="text-center arabic-fonts-slim">مؤسس مؤسسة فريق الإرشاد الوظيفي</p>
             </div>
           </div>
         </div>
@@ -178,10 +189,9 @@
 
       <footer>
         <div class="container">
-              <p class="text-center">Copyrights © Art Education Faculty - Suez University 2019</p>
+              <p class="text-center arabic-fonts">جميع الحقوق محفوظة © لطلاب الفرقة الأولى بكلية تربية فنية في جامعة السويس 2019</p>
               <center>
-              <i class="text-center fab fa-facebook"></i>
-              <i class="fab fa-whatsapp"></i>
+              <a href="https://www.facebook.com/events/2491618344263828" target="_blank"><i class="text-center fab fa-facebook"></i></a>
               </center>
         </div>
       </footer>
